@@ -25,6 +25,4 @@ public class BCNApiService {
         ResponseEntity<String> response = restTemplate.getForEntity(url.toString(), String.class, OPT_RECIENTES, normasQty);
         return response.getBody();
     }
-
-
 }
