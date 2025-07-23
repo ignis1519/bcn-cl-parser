@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>cl.ignis</groupId>
 	<artifactId>bcn-cl-parser</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>bcn-cl-parser</name>
 	<description>Proyecto personal para el manejo de APIs publicas de la Biblioteca del Congreso Nacional de Chile</description>
 	<url/>
