@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cl.ignis</groupId>
-	<artifactId>bcn-cl-laws-parser</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>bcn-cl-laws-parser</name>
-	<description>BCN Chile Laws Parser API</description>
+	<artifactId>bcn-cl-parser</artifactId>
+	<version>0.0.2</version>
+	<name>bcn-cl-parser</name>
+	<description>Proyecto personal para el manejo de APIs publicas de la Biblioteca del Congreso Nacional de Chile</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -41,14 +41,13 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
 		<dependency>
-			<groupId>jakarta.xml.bind</groupId>
-			<artifactId>jakarta.xml.bind-api</artifactId>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>2.19.2</version>
 		</dependency>
-		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
-		</dependency>
+
 	</dependencies>
 
 	<build>

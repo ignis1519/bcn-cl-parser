@@ -1,4 +1,4 @@
-package cl.ignis.bcn_cl_laws_parser.controller;
+package cl.ignis.bcn.api.parser.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
